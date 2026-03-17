@@ -12,9 +12,12 @@ export default function App() {
     <div className="font-sans">
       <Navbar />
       <Hero />
+      {/* Missão */}
       <About />
-      <Services />
+      {/* Valores */}
       <Values />
+      {/* O que oferecemos */}
+      <Services />
       <Objectives />
       <Contact />
       <Footer />
