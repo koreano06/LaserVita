@@ -42,30 +42,26 @@ Landing page completa para clínica de enfermagem especializada em cicatrizaçã
 ---
 
 ## 📁 Estrutura do projeto
-
+```
 LaserVita/
 ├── public/
 │   ├── favicon.svg
 │   └── icons.svg
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx       # Navegação responsiva com efeito scroll
-│   │   ├── Hero.jsx         # Seção principal com animações
-│   │   ├── About.jsx        # Missão, visão e diferenciais
-│   │   ├── Services.jsx     # Grid de 6 serviços
-│   │   ├── Values.jsx       # Valores institucionais
-│   │   ├── Objectives.jsx   # Objetivos da clínica
-│   │   ├── Contact.jsx      # Seção de contato
-│   │   └── Footer.jsx       # Rodapé
-│   ├── App.jsx              # Componente raiz
-│   ├── main.jsx             # Ponto de entrada React
-│   ├── index.css            # Estilos globais
-│   └── style.css            # Estilos adicionais
-├── tailwind.config.js
-├── vite.config.js
-└── tsconfig.json
----
-
+└── src/
+    ├── components/
+    │   ├── Navbar.jsx
+    │   ├── Hero.jsx
+    │   ├── About.jsx
+    │   ├── Services.jsx
+    │   ├── Values.jsx
+    │   ├── Objectives.jsx
+    │   ├── Contact.jsx
+    │   └── Footer.jsx
+    ├── App.jsx
+    ├── main.jsx
+    ├── index.css
+    └── style.css
+```
 ## 🚀 Como rodar localmente
 
 ### Pré-requisitos
